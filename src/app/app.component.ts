@@ -57,6 +57,11 @@ export class AppComponent {
           n: 'Venture',
           l: 'https://docs.google.com/document/d/1JEqWEbui87N5MmUYioMAldg6vdCTXT7-FP3RjaAa7fk/edit?usp=sharing',
         },
+        {
+          t: 'fe-note-need-read',
+          n: 'Need',
+          l: 'https://docs.google.com/document/d/1MMGZ6_NPx98xkJltJLVEQhuyqPQXhvnhiW63PjDRl-U/edit?usp=sharing',
+        },
       ],
     },
     {
