@@ -17,7 +17,7 @@ export class AppComponent {
         {
           t: 11,
           n: 'TEST-11',
-          l: '11',
+          l: 'https://docs.google.com/document/d/1u6UmsMIpm3bcfSpfO8apFpEP0aKWdZYunZ_R5OHoP6A/edit',
         },
         {
           t: 111,
@@ -90,5 +90,6 @@ export class AppComponent {
   c2(t2, l) {
     this.t2 = t2;
     this.l = l;
+    console.log('link', this.l);
   }
 }

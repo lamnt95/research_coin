@@ -1,12 +1,29 @@
 <div class="tab">
-  <button class="tablinks" *ngFor="let it of ts1" (click)="c1(it.t)">
+  <button
+    class="tablinks"
+    *ngFor="let it of ts1"
+    [ngClass]="{ active: t1 == it.t }"
+    (click)="c1(it.t)"
+  >
     {{ it.n }}
   </button>
 </div>
 <div class="tab">
-  <button class="tablinks" *ngFor="let it of ts2" (click)="c2(it.t, it.l)">
+  <button
+    class="tablinks"
+    *ngFor="let it of ts2"
+    [ngClass]="{ active: t2 == it.t }"
+    (click)="c2(it.t, it.l)"
+  >
     {{ it.n }}
   </button>
 </div>
 
-<div class="tabcontent">{{ l }}</div>
+<div class="tabcontent">
+  <iframe
+    width="100%"
+    height="800px"
+    [src]="l"
+    title="W3Schools Free Online Web Tutorials"
+  ></iframe>
+</div>
