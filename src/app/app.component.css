@@ -72,10 +72,26 @@ body {
 
 .loadText {
   position: absolute;
-  font-size: 70px;
+  font-size: 30px;
   top: 30%;
   left: 30%;
   color: black !important;
   opacity: 1 !important;
   z-index: 100;
+}
+
+.tabMain {
+  position: relative;
+}
+
+.tabClose {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.w100 {
+  width: 100%;
 }

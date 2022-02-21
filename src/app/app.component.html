@@ -1,5 +1,7 @@
-<div class="tabWrapper">
-  <div class="tab">
+<div class="tabWrapper tabMain">
+  <div class="tabClose" (click)="cl()">{{ tabClose }}</div>
+
+  <div class="tab" *ngIf="isshow">
     <button
       class="tablinks"
       *ngFor="let it of ts1"
@@ -9,18 +11,18 @@
       {{ it.n }}
     </button>
   </div>
-  <div class="tab">
+  <div class="tab" *ngIf="isshow">
     <button
       class="tablinks"
       *ngFor="let it of ts2"
       [ngClass]="{ active: t2 == it.t }"
       (click)="c2(it.t, it.l)"
     >
-      {{ it.n }}
+      <span>{{ it.n }}</span>
     </button>
   </div>
 
-  <div class="tabcontent" [ngClass]="{ loading: isLoading }">
+  <div class="tabcontent" [ngClass]="{ loading: isLoading, w100: !isshow }">
     <div class="loadText" *ngIf="isLoading">Loading</div>
     <iframe
       width="100%"

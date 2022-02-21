@@ -175,4 +175,9 @@ export class AppComponent {
   }
 
   isLoading: any;
+  tabClose: any = '...';
+  isshow: any = true;
+  cl() {
+    this.isshow = !this.isshow;
+  }
 }
