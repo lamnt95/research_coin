@@ -159,7 +159,10 @@ export class AppComponent {
 
   c2(t2, l) {
     this.t2 = t2;
+    this.isLoading = true;
     this.l = this.sanitizer.bypassSecurityTrustResourceUrl(l);
     console.log('link', this.l);
   }
+
+  isLoading: any;
 }

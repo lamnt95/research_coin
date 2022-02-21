@@ -25,6 +25,8 @@
       width="100%"
       height="800px"
       [src]="l"
+      (load)="isLoading = false"
+      [class.d-none]="isLoading"
       title="W3Schools Free Online Web Tutorials"
     ></iframe>
   </div>
