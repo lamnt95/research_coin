@@ -122,6 +122,27 @@ export class AppComponent {
         },
       ],
     },
+    {
+      t: 5,
+      n: 'Report',
+      ts: [
+        {
+          t: 55,
+          n: 'TEST-33',
+          l: '55',
+        },
+        {
+          t: 555,
+          n: 'TEST-333',
+          l: '555',
+        },
+        {
+          t: 5555,
+          n: 'TEST-3333',
+          l: '5555',
+        },
+      ],
+    },
   ];
   ts2: any;
 
