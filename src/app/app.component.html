@@ -1,4 +1,12 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="tab">
+  <button class="tablinks" *ngFor="let it of ts1" (click)="c1(it.t)">
+    {{ it.n }}
+  </button>
+</div>
+<div class="tab">
+  <button class="tablinks" *ngFor="let it of ts2" (click)="c2(it.t, it.l)">
+    {{ it.n }}
+  </button>
+</div>
+
+<div class="tabcontent">{{ l }}</div>
