@@ -14,23 +14,38 @@ export class AppComponent {
 
   ts1: any = [
     {
-      t: 1,
-      n: 'TEST-1',
+      t: 'research',
+      n: 'Research',
       ts: [
         {
+          t: 'fe-note-l0',
+          n: 'L0',
+          l: 'https://docs.google.com/document/d/1MY2oHW53WptjAffa20FO4D_NZmGRvb0g7cz_nCzAeuc/edit?usp=sharing',
+        },
+        {
           t: 11,
-          n: 'TEST-11',
+          n: 'Stable coin',
           l: 'https://docs.google.com/document/d/1u6UmsMIpm3bcfSpfO8apFpEP0aKWdZYunZ_R5OHoP6A/edit',
         },
         {
-          t: 111,
-          n: 'TEST-111',
-          l: '111',
+          t: 'fe-note-amm-dex',
+          n: 'Amm dex',
+          l: 'https://docs.google.com/document/d/1Nb1sNwTsUc5RBy6FUDfKzL8EqPW0hvCVw71TNCZ1KUQ/edit?usp=sharing',
         },
         {
-          t: 1111,
-          n: 'TEST-1111',
-          l: '1111',
+          t: 'fe-note-lend',
+          n: 'Lend',
+          l: 'https://docs.google.com/document/d/1Mnd5_rBovh7ztDAurDRm1_kCKNq9GIryxNHgLIG97YU/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-api',
+          n: 'Api',
+          l: 'https://docs.google.com/document/d/1T4gtGuHeZnFgpK0ijZh6EonB9-lfXutRBfnNaHr4oZA/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-venture',
+          n: 'Venture',
+          l: 'https://docs.google.com/document/d/1JEqWEbui87N5MmUYioMAldg6vdCTXT7-FP3RjaAa7fk/edit?usp=sharing',
         },
       ],
     },
