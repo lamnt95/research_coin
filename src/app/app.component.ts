@@ -48,6 +48,11 @@ export class AppComponent {
           l: 'https://docs.google.com/document/d/1T4gtGuHeZnFgpK0ijZh6EonB9-lfXutRBfnNaHr4oZA/edit?usp=sharing',
         },
         {
+          t: 'fe-note-game',
+          n: 'Game',
+          l: 'https://docs.google.com/document/d/1NIwTQjL0qcO0eHOayNSV7WtwlK61ofNqqRgKh8qjUMY/edit?usp=sharing',
+        },
+        {
           t: 'fe-note-venture',
           n: 'Venture',
           l: 'https://docs.google.com/document/d/1JEqWEbui87N5MmUYioMAldg6vdCTXT7-FP3RjaAa7fk/edit?usp=sharing',
@@ -93,6 +98,27 @@ export class AppComponent {
           t: 3333,
           n: 'TEST-3333',
           l: '3333',
+        },
+      ],
+    },
+    {
+      t: 4,
+      n: 'Game_Meta',
+      ts: [
+        {
+          t: 44,
+          n: 'TEST-33',
+          l: '44',
+        },
+        {
+          t: 444,
+          n: 'TEST-333',
+          l: '444',
+        },
+        {
+          t: 4444,
+          n: 'TEST-3333',
+          l: '4444',
         },
       ],
     },
