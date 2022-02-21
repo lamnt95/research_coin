@@ -38,6 +38,11 @@ export class AppComponent {
           l: 'https://docs.google.com/document/d/1Mnd5_rBovh7ztDAurDRm1_kCKNq9GIryxNHgLIG97YU/edit?usp=sharing',
         },
         {
+          t: 'fe-note-perp',
+          n: 'Perp',
+          l: 'https://docs.google.com/document/d/1SLqadQxFmQxcAlF9oSVja2-BFziM7jzF8W2KG22IC5Q/edit?usp=sharing',
+        },
+        {
           t: 'fe-note-api',
           n: 'Api',
           l: 'https://docs.google.com/document/d/1T4gtGuHeZnFgpK0ijZh6EonB9-lfXutRBfnNaHr4oZA/edit?usp=sharing',
