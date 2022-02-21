@@ -62,6 +62,11 @@ export class AppComponent {
           n: 'Need',
           l: 'https://docs.google.com/document/d/1MMGZ6_NPx98xkJltJLVEQhuyqPQXhvnhiW63PjDRl-U/edit?usp=sharing',
         },
+        {
+          t: 'fe-note-added',
+          n: 'Added',
+          l: 'https://docs.google.com/document/d/1i2s1Cg4VdA61rNp-qEEB51UYqjKaHSR-fKSmUP4EUpw/edit?usp=sharing',
+        },
       ],
     },
     {
