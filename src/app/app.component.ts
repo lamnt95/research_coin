@@ -1,5 +1,6 @@
 import { Component, VERSION } from '@angular/core';
 import * as _ from 'lodash';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'my-app',
@@ -8,6 +9,8 @@ import * as _ from 'lodash';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
+
+  constructor(private sanitizer: DomSanitizer) {}
 
   ts1: any = [
     {
@@ -89,7 +92,7 @@ export class AppComponent {
 
   c2(t2, l) {
     this.t2 = t2;
-    this.l = l;
+    this.l = this.sanitizer.bypassSecurityTrustResourceUrl(l);
     console.log('link', this.l);
   }
 }
