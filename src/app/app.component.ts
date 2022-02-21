@@ -56,7 +56,7 @@ export class AppComponent {
     },
     {
       t: 2,
-      n: 'TEST-2',
+      n: 'L0',
       ts: [
         {
           t: 22,
@@ -77,7 +77,7 @@ export class AppComponent {
     },
     {
       t: 3,
-      n: 'TEST-3',
+      n: 'Defi',
       ts: [
         {
           t: 33,
