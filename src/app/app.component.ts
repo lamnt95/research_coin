@@ -67,6 +67,11 @@ export class AppComponent {
           n: 'Added',
           l: 'https://docs.google.com/document/d/1i2s1Cg4VdA61rNp-qEEB51UYqjKaHSR-fKSmUP4EUpw/edit?usp=sharing',
         },
+        {
+          t: 'fe-note-checkin',
+          n: 'Checkin',
+          l: 'https://docs.google.com/spreadsheets/d/14sYVRV2dVFK5lMUSgHFrQBX2KG5z44zx39jWUkzHlMQ/edit?usp=sharing',
+        },
       ],
     },
     {
