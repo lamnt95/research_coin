@@ -14,8 +14,8 @@ body {
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  width: 150px;
-  height: 800px;
+  width: 130px;
+  height: 900px;
   overflow: hidden;
 }
 
@@ -49,9 +49,10 @@ body {
   float: left;
   padding: 0px 12px;
   /* border: 1px solid #ccc; */
-  width: 80%;
   border-left: none;
-  height: 800px;
+  height: 900px;
+  display: flex;
+  flex: 1;
 }
 
 .active {
@@ -82,6 +83,7 @@ body {
 
 .tabMain {
   position: relative;
+  display: flex;
 }
 
 .tabClose {
