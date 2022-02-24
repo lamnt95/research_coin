@@ -10,7 +10,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
 
-  constructor(private sanitizer: DomSanitizer, private api: Api) {}
+  constructor(private sanitizer: DomSanitizer) {}
 
   ts1: any = [
     {
