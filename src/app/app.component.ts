@@ -53,11 +53,6 @@ export class AppComponent {
           l: 'https://docs.google.com/document/d/1NIwTQjL0qcO0eHOayNSV7WtwlK61ofNqqRgKh8qjUMY/edit?usp=sharing',
         },
         {
-          t: 'fe-note-venture',
-          n: 'Venture',
-          l: 'https://docs.google.com/document/d/1JEqWEbui87N5MmUYioMAldg6vdCTXT7-FP3RjaAa7fk/edit?usp=sharing',
-        },
-        {
           t: 'fe-note-need-read',
           n: 'Need',
           l: 'https://docs.google.com/document/d/1MMGZ6_NPx98xkJltJLVEQhuyqPQXhvnhiW63PjDRl-U/edit?usp=sharing',
@@ -155,6 +150,37 @@ export class AppComponent {
           t: 5555,
           n: 'TEST-3333',
           l: '5555',
+        },
+      ],
+    },
+    {
+      t: 'Venture',
+      n: 'Venture',
+      ts: [
+        {
+          t: 'fe-note-venture',
+          n: 'Venture',
+          l: 'https://docs.google.com/document/d/1JEqWEbui87N5MmUYioMAldg6vdCTXT7-FP3RjaAa7fk/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-a16z',
+          n: 'a16z',
+          l: 'https://docs.google.com/document/d/1HZQpj68CXV60kjulFppIKsu7GsrAkaoW5tPfs2JcO_s/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-binance',
+          n: 'Binance',
+          l: 'https://docs.google.com/document/d/1W0VGMHlFsx0D6W7yDlY5oWKy3WjMUd8kvt-8FT4HJPQ/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-multicoin',
+          n: 'Multicoin',
+          l: 'https://docs.google.com/document/d/1kmXT1sWbx5aE36dR07ZkkzJHbrIy2kZo4ay3iU4FJbs/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-coinbase',
+          n: 'Coinbase',
+          l: 'https://docs.google.com/document/d/1XeRwgHMZtzwvdxUspe4KsSiZThrj4WVQqpBtYBAzn6M/edit?usp=sharing',
         },
       ],
     },
