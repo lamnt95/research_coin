@@ -15,7 +15,7 @@ body {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 130px;
-  height: 700px;
+  /* height: 700px; */
   overflow: hidden;
 }
 
@@ -50,7 +50,7 @@ body {
   padding: 0px 12px;
   /* border: 1px solid #ccc; */
   border-left: none;
-  height: 700px;
+  /* height: 700px; */
   display: flex;
   flex: 1;
 }
@@ -84,6 +84,7 @@ body {
 .tabMain {
   position: relative;
   display: flex;
+  height: 100%;
 }
 
 .tabClose {
