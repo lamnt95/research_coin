@@ -19,6 +19,7 @@
       (click)="c2(it.t, it.l)"
     >
       <span>{{ it.n }}</span>
+      <span *ngIf="it.lv == 1" class="lvh">v</span>
     </button>
   </div>
 

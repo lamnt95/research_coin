@@ -98,3 +98,13 @@ body {
 .w100 {
   width: 100%;
 }
+
+.lvh {
+  width: 10px;
+  height: 10px;
+  background: gold;
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 5px;
+}
