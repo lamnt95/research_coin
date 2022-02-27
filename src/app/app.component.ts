@@ -257,6 +257,11 @@ export class AppComponent {
           n: 'group-vn',
           l: 'https://docs.google.com/document/d/1ZXMSZCT_pVyMlRZuBhFA6hSgTZ8sJPIV-VR7MK_Kxp8/edit?usp=sharing',
         },
+        {
+          t: 'fe-note-linhtinh',
+          n: 'linh tinh',
+          l: 'https://docs.google.com/document/d/1tzblafBjCyIf4hqzAuqG4L9MzSEiakvcghf52dkeVbQ/edit?usp=sharing',
+        },
       ],
     },
     {
