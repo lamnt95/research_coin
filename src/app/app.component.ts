@@ -160,13 +160,13 @@ export class AppComponent {
           t: 'fe-note-theta',
           n: 'theta',
           l: 'https://docs.google.com/document/d/1J6hh-tkC7Mvrg_IAvB-AJTviTZUMMkZyyumyAzlzk-o/edit?usp=sharing',
-          lv: 1,
+          // lv: 1,
         },
         {
           t: 'fe-note-grt',
           n: 'grt',
           l: 'https://docs.google.com/document/d/10zpngMYNcWbJtztVnsHOYOR98oQIo1FElIZHxwx9FbA/edit?usp=sharing',
-          lv: 1,
+          // lv: 1,
         },
         {
           t: 'fe-note-arweave',
