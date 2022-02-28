@@ -258,6 +258,16 @@ export class AppComponent {
           l: 'https://docs.google.com/document/d/1ZXMSZCT_pVyMlRZuBhFA6hSgTZ8sJPIV-VR7MK_Kxp8/edit?usp=sharing',
         },
         {
+          t: 'fe-note-delphidigital',
+          n: 'delphi',
+          l: 'https://docs.google.com/document/d/1l0WPMi5tQ0YZFLzojgfdwfYumO00t23aHWVeh90tQKk/edit?usp=sharing',
+        },
+        {
+          t: 'fe-note-theblock',
+          n: 'block',
+          l: 'https://docs.google.com/document/d/1jjafAYU4qoGq9F9vCkbqPPKIv3v7cHJ9G__EZJwznnY/edit?usp=sharing',
+        },
+        {
           t: 'fe-note-linhtinh',
           n: 'linh tinh',
           l: 'https://docs.google.com/document/d/1tzblafBjCyIf4hqzAuqG4L9MzSEiakvcghf52dkeVbQ/edit?usp=sharing',
